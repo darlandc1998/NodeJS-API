@@ -14,4 +14,6 @@ requireDir('./src/models');
 //Primeira rota
 app.use('/api', require('./src/routes'));
 
+
+
 app.listen(3001);
